@@ -11,7 +11,7 @@ if (!process.env.ORACLE_ADDRESS) {
 }
 
 if (!process.env.JOB_ID) {
-  console.error('Please set the JOB_ID environment variable after creating a new job specification in Chainlink');
+  console.error('Please set the JOB_ID environment variable after creating a new job specification in Chainlink using jobs/eth-price.json');
 }
 
 contract("EthPrice", async (accounts) => {
