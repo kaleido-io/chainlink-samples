@@ -17,7 +17,7 @@ Before running the sample, make sure the following tools are installed:
 
 #### Here is an overview of the steps
 
-1. Create a Chainlink & Ethereum node in your Kaleido environment.
+1. Create a Ethereum node and a Chainlink node in your Kaleido environment.
 2. Create a job in the Chainlink node.
 3. Set 4 `env` variables to connect your environments:
 
